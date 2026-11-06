@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IDCARD STUDIO-KrisnaDigital</title>
+  <meta name="description" content="Generator ID Card otomatis dari template desain asli. Berjalan lokal di browser.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='14' y='4' width='36' height='56' rx='5' fill='%232563eb'/%3E%3Crect x='22' y='14' width='20' height='24' rx='2' fill='%23fff'/%3E%3Crect x='22' y='44' width='20' height='4' rx='2' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/dashboard"><span class="logo"></span>IDCARD <b>STUDIO</b></a>
+    <button class="navtoggle" id="navtoggle" aria-label="Menu">☰</button>
+    <nav class="nav">
+      <a data-route="dashboard" href="#/dashboard">Dashboard</a>
+      <a data-route="generator" href="#/generator">Buat ID Card</a>
+      <a data-route="designer" href="#/designer">Template Designer</a>
+      <a data-route="settings" href="#/settings">Pengaturan</a>
+    </nav>
+  </header>
+  <main id="view" class="view"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/field-mapping.js"></script>
+  <script src="assets/js/default-configs.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/renderer.js"></script>
+  <script src="assets/js/export.js"></script>
+  <script src="assets/js/template-designer.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

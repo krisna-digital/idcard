@@ -1,0 +1,15 @@
+@media (max-width:980px){
+  .gen{grid-template-columns:1fr}.gen-preview{position:static;order:-1}.pv-scroll{max-height:70vh}
+  .d-body{grid-template-columns:1fr}.d-stage-wrap{max-height:70vh}
+}
+@media (max-width:720px){
+  .topbar{gap:.5rem}.navtoggle{display:block}
+  .nav{display:none;position:absolute;top:56px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;padding:.5rem}
+  body.nav-open .nav{display:flex}.nav a{padding:.7rem .8rem}
+  .view{padding:.75rem}.export-grid{grid-template-columns:1fr}.tpl-thumbs img{height:150px}
+  .btn{min-height:42px}.fld input,.fld select{min-height:42px;font-size:16px}
+  .h{width:18px;height:18px}.h.nw{left:-10px;top:-10px}.h.ne{right:-10px;top:-10px}.h.se{right:-10px;bottom:-10px}.h.sw{left:-10px;bottom:-10px}
+  .h.n{top:-10px;left:calc(50% - 9px)}.h.s{bottom:-10px;left:calc(50% - 9px)}.h.e{right:-10px;top:calc(50% - 9px)}.h.w{left:-10px;top:calc(50% - 9px)}
+  .set-row{flex-direction:column}
+}
+@media print{.topbar,.toast{display:none}}
